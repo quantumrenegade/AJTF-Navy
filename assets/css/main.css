@@ -322,3 +322,20 @@ tbody tr:nth-child(odd) { background: rgba(234, 243, 249, .55); }
   border-top: 1px solid var(--border);
   color: var(--fg-light);
 }
+ .half-image-right {
+    width: 50%;
+    float: right; 
+    margin-left: 20px; 
+    margin-bottom: 10px;
+  }
+  .half-image-left {
+    width: 50%;
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 10px;
+  }
+   .half-image-center {
+    width: 50%;
+    display: block; 
+    margin: 20px auto;
+  }
