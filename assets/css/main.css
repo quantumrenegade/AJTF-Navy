@@ -188,8 +188,8 @@ tbody tr:nth-child(odd) { background: rgba(234, 243, 249, .55); }
 }
 #menu li.open > .opener::after { transform: translateY(-25%) rotate(225deg); border-color: var(--accent); }
 #menu .opener:hover::after { border-color: var(--accent-hover); }
-#menu ul ul { display: none; padding: 0 0 .5em 1.25em; }
-#menu li.open > ul { display: block; }
+#menu ul ul {display: none;padding: 0 0 .5em 1.25em;}
+#menu .opener[aria-expanded="true"] + ul {display: block;}
 #menu ul ul a { padding: .45em .6em; color: var(--fg); font-size: .9em; }
 #menu a[aria-current="page"] { color: var(--accent); background: var(--accent-soft); border-left: 3px solid var(--accent); padding-left: .45em; font-weight: 600; }
 
